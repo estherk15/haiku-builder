@@ -48,6 +48,7 @@ function fetchSyllableCount () {
       .then(response => response.json())
       .then(wordData => wordData[0].numSyllables)
     }
+    console.log("testing git changes")
     return 0
   }
 
